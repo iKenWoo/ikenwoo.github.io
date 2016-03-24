@@ -14,6 +14,7 @@ copyright: Ken Woo 2016
 sass:
   sass_dir: assets/sass
 url: "http://ikenwoo.github.io" # the base hostname & protocol for your site
+google_analytics: UA-63017368-1
 disqus_shortname: ikenwoo
 twitter_username: ikenwoo
 github_username:  ikenwoo
