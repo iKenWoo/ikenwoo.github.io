@@ -8,8 +8,7 @@
 # Site settings
 title: iKenWoo
 description: > 
-  My two Canadian cents on programming, learning and all things awesome. 
-  Please note that my pennies are now deprecated in my country.
+  My two Canadian cents on programming, learning and all things awesome.
 copyright: Ken Woo 2016
 sass:
   sass_dir: assets/sass
