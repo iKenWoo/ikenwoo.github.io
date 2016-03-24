@@ -7,15 +7,29 @@
 
 # Site settings
 title: iKenWoo
-email: ikenwoo@gmail.com
 description: > 
   My two Canadian cents on programming, learning and all things awesome. 
   Please note that my pennies are now deprecated in my country.
-baseurl: "" # the subpath of your site, e.g. /blog
+copyright: Ken Woo 2016
+sass:
+  sass_dir: assets/sass
 url: "http://ikenwoo.github.io" # the base hostname & protocol for your site
+disqus_shortname: ikenwoo
 twitter_username: ikenwoo
 github_username:  ikenwoo
+feed_icon: rss
+email: ikenwoo@gmail.com
 timezone: America/Toronto
+gems: [jekyll-paginate, jemoji]
+paginate_path: "/page/:num/"
+paginate: 5
 
-# Build settings
-markdown: kramdown
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      permalink: /:title
